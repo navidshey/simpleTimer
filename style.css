@@ -1,0 +1,17 @@
+.timerText {
+    margin: auto;
+    margin-top: 24px;
+    min-height: 30px;
+  }
+  .msg{
+    margin: auto;
+    text-align: center !important;
+    font-size: 12px;
+    color: red;
+  }
+.timer{
+    direction: ltr;
+     margin: auto;
+      text-align: center !important; 
+    font-size: 20px;
+}

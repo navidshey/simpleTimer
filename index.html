@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html ng-app="simpleTimer">
+
+  <head>
+    <meta charset="utf-8" />
+    <title>AngularJS Simple Timer</title>
+    <link rel="stylesheet" href="style.css" />
+    
+    <!-- Font Awesome CDN -->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.4.9/angular.js" ></script>
+    <script src="app.js"></script>
+  </head>
+
+  <body ng-controller="mainController">
+      <button ng-click="start();">Start</button>
+      <button ng-click="stop();">Stop</button>
+      <button ng-click="pause();">reset</button>
+      <div>
+    <div timer class="timerText" name="loginTimer" timerstatus="timerstatus" time="time"
+        finishmsg="Timer is finished.">
+    </div></div>
+  </body>
+</html>
